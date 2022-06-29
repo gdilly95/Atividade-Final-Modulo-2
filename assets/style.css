@@ -1,0 +1,96 @@
+*body {
+    margin: 0;
+    padding: 0;
+}
+
+.lat-esq {
+    width: 25%;
+    height: 100vh;
+    background-color: #000000;
+    
+    float: left;
+}
+
+.lat-dir {
+    width: 75%;
+    height: 100vh;
+    background-color: lightgrey;
+    float: right;
+}
+
+.foto {
+    border-radius: 600px;
+    width: 176px;
+    height: 176px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40%;
+    display: block;
+    border: 5px solid #6d0000;
+    
+}
+
+.nav-esq {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 100px;
+    height: 100px;
+ 
+}
+
+.links {
+    text-decoration: dashed;
+    color: #ffffff;
+        
+}
+
+.links:hover {
+    color: gray;
+}
+
+.sobre {
+    margin-left: 30px;
+    margin-top: 130px;
+}
+
+.nome {
+    font-size: 80px;
+}
+
+.sobrenome, .email {
+    color: #8b0000;
+}
+
+.endereco {
+    margin-top: -75px
+}
+
+.instalogo, .gitlogo {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 28px; 
+    border: 1px solid #000000;
+}
+
+.gitlogo {
+    margin-left: 20px;
+}
+
+.instalogo:hover, .gitlogo:hover {
+    opacity: 0.5;
+}
+
+.conhecimentos {
+    margin-top: 130px;
+    margin-left: -40px;
+    font-size: 35px;
+}
+
+.objetivos {
+    margin-top: 130px;
+    margin-left: -60px;
+    font-size: 25px;
+}

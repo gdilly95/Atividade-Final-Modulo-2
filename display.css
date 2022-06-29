@@ -1,0 +1,55 @@
+/* display: none; é comumente usado com JavaScript para ocultar e mostrar elementos sem excluí-los e 
+repiscá-los.
+Esconder um elemento pode ser feito definindo a propriedade para . O elemento será oculto, e a página 
+será exibida como se o elemento não estivesse lá:display none
+
+visibility:hidden; também esconde um elemento.
+
+No entanto, o elemento ainda ocupará o mesmo espaço de antes. O elemento será oculto, 
+mas ainda afetará o layout:
+ */
+
+.example_1,
+.example_2 {
+  /* Comparado com display: inline , a grande diferença é que o display: inline-block permite definir uma largura e altura no elemento.
+ 
+  Além disso, com display: inline-block as margens/preenchimentos superiores e inferiores são respeitados, mas com display: inline
+   eles não são. 
+
+  Comparado com display: block , a grande diferença é que o display: inline-block não adiciona uma quebra de linha após o elemento, para 
+  que o elemento possa sentar-se ao lado de outros elementos.
+
+Mude o tipo de display abaixo e veja o comportamento diferente de display: inline, display: inline-block e display: block: */
+
+  display: inline-block;
+  height: 400px;
+}
+
+.example {
+  width: 100vw;
+  height: 100vh;
+  background-color: violet;
+}
+
+.example_1 {
+  width: 30%;
+
+  background-color: green;
+  z-index: 0;
+  opacity: 0;
+}
+.example_2 {
+  width: 60%;
+  border: 20px dashed blue;
+  border-radius: 50px 50% 20rem 10em;
+  margin-left: -10px;
+
+  background-color: red;
+  z-index: 9999;
+}
+
+p {
+  display: inline-block;
+
+  background-color: #000;
+}
